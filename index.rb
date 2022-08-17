@@ -44,3 +44,13 @@ def decode_word(word)
 end
 
 puts decode_word('-- -.--')
+
+def decode(string)
+  words = string.split('   ')
+  decoded_words = []
+  words.each do |word|
+    decoded_words.push(decode_word(word))
+  end
+  decoded_words.join(' ')
+end
+
