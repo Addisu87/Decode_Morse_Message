@@ -26,8 +26,6 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 - Ruby
 
-### Deployment
-
 ## Authors
 
 👤 **Addisu Haile**
