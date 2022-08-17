@@ -54,3 +54,6 @@ def decode(string)
   decoded_words.join(' ')
 end
 
+puts decode('-- -.--   -. .- -- .')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+
